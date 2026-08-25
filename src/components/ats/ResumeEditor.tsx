@@ -26,7 +26,7 @@ export function ResumeEditor({
   canRestore: boolean;
   changes: string[];
   scoreBefore: number;
-  scoreAfter?: number;
+  scoreAfter?: number | undefined;
   onReanalyze: () => void;
   reanalyzing: boolean;
 }) {
