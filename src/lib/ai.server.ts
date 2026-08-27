@@ -1,5 +1,5 @@
 const GATEWAY_URL = "https://ai.gateway.lovable.dev/v1/chat/completions";
-const MODEL = "google/gemini-3-flash-preview";
+const MODEL = "google/gemini-3.7-flash";
 
 export class AiError extends Error {
   status: number;
